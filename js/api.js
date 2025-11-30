@@ -1,6 +1,5 @@
 // js/api.js
 
-// URL DE PRODUÇÃO (Você vai descomentar esta linha depois do deploy no Render)
 const API_BASE_URL = 'https://projeto-plotze-web.onrender.com/api'; 
 
 async function request(endpoint, method = 'GET', body = null) {
